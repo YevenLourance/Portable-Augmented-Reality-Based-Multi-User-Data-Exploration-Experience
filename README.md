@@ -91,7 +91,7 @@ It could be updated after each iteration. The Asset file can be updated after ea
 
 ### Demo for this app ###
 
-![demo](./AR.png) 
+![demo](./ar.jpg) 
 
 The detailed demo operations are videoed in the link [https://www.youtube.com/watch?v=5a-Ffet1rVk](https://www.youtube.com/watch?v=5a-Ffet1rVk) 
 
