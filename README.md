@@ -89,6 +89,13 @@ I use the high level API and I set the network manager and lobby manager to cont
 The ARKit package is based on Unity ARKit-Plug-in 2.0 Beta.
 It could be updated after each iteration. The Asset file can be updated after each update.
 
+### Demo for this app ###
+
+![demo](./AR.png) 
+
+The detailed demo operations are videoed in the link [https://www.youtube.com/watch?v=5a-Ffet1rVk](https://www.youtube.com/watch?v=5a-Ffet1rVk) 
+
+
 ## Questions?  Bugs? Showcase? ##
 
 Contact Zeruo.Liu@anu.edu.au if there are some questions 
