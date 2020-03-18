@@ -26,7 +26,7 @@ The network connection is currently use the [High-Level-API](https://docs.unity3
 
 Downloading the file and open this whole project in Unity version 2017.4. Notice that this artefact is over 1.1GB.
 Choose build settings to iOS platform in Unity and compile the code in XCode. Set the certification into another string and player setting versions to iOS 12. (explain the detailed string and give example) 
-After this project has been built, users can directly open [Unity-iPhone.xcodeproj](./test/Unity-iPhone.xcodeproj) test module. Click the project name and then 
+After this project has been built, users can directly open [Unity-iPhone.xcodeproj] test module. Click the project name and then 
 in develop group, set the individual icloud account as developer certification.
 In XCode, the codes are compiled to Objective-C. Users can deploy the code on several iPhones and open the app to create shared session.
 
@@ -34,10 +34,10 @@ In XCode, the codes are compiled to Objective-C. Users can deploy the code on se
 
 <h4>API</h4>
 
-![High level API construction](./Image/HAPI.png)  
+
 Here shows the steps need to be set by Unity Network and high level API.
 
-[CaptainsMess API](./Assets/examplesphere/Scripts)
+
 
 <b>AutoConnect()</b> starts joining or hosting as appropriate. This is what Spaceteam does when you dial "Play".  
 <b>StartHosting()</b> starts hosting a game as the server  
@@ -53,7 +53,6 @@ Here shows the steps need to be set by Unity Network and high level API.
 <b>FinishGame()</b> call this when your game is over if you want to return to the lobby with the same players  
 <b>ForceServer(bool forceServer)</b> give the device a high 'serverScore' so that it will be preferred when choosing a server  
 
-[CaptainsMessPlayer API](./Assets/examplesphere) 
 
 <b>SendReadyToBeginMessage()</b> Tell the server that this player is ready  
 <b>SendNotReadyToBeginMessage()</b> Tell the server that this player is NOT ready  
@@ -75,13 +74,7 @@ Here shows the steps need to be set by Unity Network and high level API.
 <b>OnDiscoveredServer()</b> You can override this if you want to show feedback about the network traffic.  
 
 
-## Test module ##
 
-[Unity-iPhone.xcodeproj](./test/Unity-iPhone.xcodeproj) can be directly opened in XCode IDE.
-
-To test the iOS deployed file. Open this file in XCode on Mac.
-Build the codes and deploy the codes on both phones. The users can start the app. 
-  
 
 ## Useful components ##
 <h4>ARKit</h4>
@@ -98,7 +91,7 @@ It could be updated after each iteration. The Asset file can be updated after ea
 
 ## Questions?  Bugs? Showcase? ##
 
-Contact Zeruo.Liu@data61.csiro.au if there are some questions 
+Contact Zeruo.Liu@anu.edu.au if there are some questions 
 
 
 ## Reference
